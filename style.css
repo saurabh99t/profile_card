@@ -68,7 +68,7 @@ body{
     /* display: grid; */
     /* place-items: center; */
     /* background-color: rgb(0, 0, 0); */
-    width: 70%;
+    width: 100%;
     /* margin-left: 10px; */
     height: 33.33%;
 }
@@ -220,6 +220,7 @@ body{
 
     
 .profile-img{
+  
     /*  */
     /* float: left; */
     /* padding: 0px 0px 50px; */
@@ -280,12 +281,28 @@ body{
     font-size: 15px;
     /* line-height: 10px; */
     margin-right: 120px;
-    float: right;
+    /* float: left; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
 }
 
 
+/* .sec1_span1{
+margin-left: 250px;
+}
+
+.sec1_span2{
+    margin-left: 180px;
+}
+
+.sec1_span3{
+    margin-left: 160px;
+}
+
+
+.sec1_span4{
+    margin-left: 220px;
+} */
 /* 
 .buttons{
     margin: 0 auto;
@@ -426,60 +443,22 @@ body{
 
 
 
+/* --------------- */
 
-/* slider ki css */
-
-/* .slidecontainer {
-    margin-left: 20px;
-    width: 80%;
+.paragraphs{
     display: flex;
    
- 
-  }
-  
-  .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 5px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-  }
-  
-  .slider:hover {
-    opacity: 1;
-  }
-  
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #04AA6D;
-    cursor: pointer;
-  }
-  
-  .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #04AA6D;
-    cursor: pointer;
-  }
+    gap: 0 50px;
+}
 
 
- #demo{
-    display:flex;
- } */
-  /* #demo{
-    margin-left: 3px;
-    margin-top: 0px;
-  } */
 
+.paragraphs div p{
+    font-size: 18px;
+}
+
+
+/* --------------- */
 
 
 
