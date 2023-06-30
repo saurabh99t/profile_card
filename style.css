@@ -43,10 +43,12 @@ body{
 }
 .section1A{
     margin-top: 5px;
-    background-color: royalblue;
+    /* background-color: rgb(0, 255, 68); */
     width: 100%;
     height: 33.33%;
     line-height: 2px;
+    text-align: left;
+    margin-left: 10%;
 }
 
 .section1B{
@@ -260,11 +262,13 @@ body{
 } */
 
 .section1A p{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 40px;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 700;
     /* line-height: 10px; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 }
@@ -272,10 +276,12 @@ body{
 
 .section1A span{
     color: white;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 15px;
     /* line-height: 10px; */
     margin-right: 90px;
     float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
 }
 
@@ -548,6 +554,15 @@ body{
     .section4A , .section4B , .section4C {
 
         height: 300px;
+    }
+
+
+    .section1A p{
+       font-size: 25px;
+    }
+
+    .section1A span{
+        font-size: 25px;
     }
     
   }
